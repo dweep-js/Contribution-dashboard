@@ -1,42 +1,18 @@
-# sv
+# ContributionPass
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+ContributionPass is a modern GitHub analytics dashboard built with SvelteKit. Enter any GitHub username to instantly view contribution activity, developer progression, repository statistics, language usage, and more through a clean, responsive interface inspired by modern developer tools.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+* Contribution chart
+* Level and tier progression system based on yearly contributions
+* XP progress tracking
+* Repository, follower, and star statistics
+* Top programming languages with visual breakdown
+* Longest contribution streak and activity insights
+* Beautiful Catppuccin Mocha-inspired UI
+* Fully responsive design
+* Download your dashboard as an image
+* Built with SvelteKit, Vite, and Bun
 
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-bun x sv@0.16.1 create --template minimal --no-types --add prettier --install bun contribution-pass
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Whether you're showcasing your GitHub profile or simply exploring your coding activity, ContributionPass provides an attractive, fast, and intuitive way to visualize your open-source journey.
